@@ -1,4 +1,4 @@
-/* start var */
+0/* start var */
 :root {
   --color-white: #ffffff;
   --color-btn-dark-blue: #023047;
@@ -513,7 +513,7 @@ button:hover {
 
 /* end footer */
 
-/* reeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeesponsive */
+/* reeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeesponsive */
 
 @media (max-width: 767px) {
   html {
@@ -692,7 +692,7 @@ button:hover {
     left: 22px;
     width: 18px;
     height: 18px;
-    background-image: url(/link-icon.svg);
+    background-image: url(link-icon.svg);
     color: white;
   }
 
@@ -755,7 +755,7 @@ button:hover {
     left: 60px;
     width: 44px;
     height: 44px;
-    background-image: url(/emojione_star.svg);
+    background-image: url(emojione_star.svg);
   }
 
   .rate-txt {
