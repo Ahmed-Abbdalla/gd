@@ -1,0 +1,138 @@
+<section class="testimony section">
+  <div class="testimony__left">
+    <div class="pippe"></div>
+    <div class="card card-1">
+      <p class="opinion">
+        This is a great course. It helped me a lot.<br />
+        Thank you :)
+      </p>
+      <div class="user-info">
+        <div class="user-dec">
+          <h3 class="user-name h3-heading">Jane Cooper</h3>
+          <p class="user-work">Developer, Sony</p>
+        </div>
+        <div class="user-img-container">
+          <img class="user-img" src="/girl-user.svg" alt="" />
+        </div>
+      </div>
+    </div>
+    <!-- card 2 -->
+    <div class="card card-2">
+      <p class="opinion">Amazing Work! Well done!</p>
+      <div class="user-info">
+        <div class="user-dec">
+          <h3 class="user-name h3-heading">Jacob Jones</h3>
+          <p class="user-work">Designer, Facebook</p>
+        </div>
+        <div class="user-img-container">
+          <img class="user-img" src="/male.png" alt="" />
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="testimony__right">
+    <h2 class="h2-heading h2-heading--raleway">What our students<br />say</h2>
+    <p class="testimony__right__description">
+      All students get access to all the videos and also the source code of the
+      projects.<br />
+      You will also have access to a private Discord channel where you can
+      discuss your doubts.
+    </p>
+    <a class="testimony__right__btn" href="#">Learn More</a>
+  </div>
+</section>
+
+<!-- section courses -->
+<section class="courses section">
+  <h2 class="h2-heading section--full courses__heading">Our Courses</h2>
+  <div class="courses-wrapper">
+    <div class="courses__container">
+      <img class="courses__pic" src="/mario.png" alt="" />
+      <div class="courses__content">
+        <h3 class="courses__name h3-heading">Game Design Essentials</h3>
+        <div class="courses__time">
+          <img src="/Clock.svg" alt="clock" />
+          <p>8 HRS</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- second course -->
+    <div class="courses__container">
+      <img class="courses__pic" src="/joystick.png" alt="" />
+      <div class="courses__content">
+        <h3 class="courses__name h3-heading">Unity Game Engine Fundamentals</h3>
+        <div class="courses__time">
+          <img src="/Clock.svg" alt="clock" />
+          <p>8 HRS</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <a class="section--full courses__btn" href="#">All Courses</a>
+</section>
+
+<!-- get download -->
+<section class="download">
+  <h2 class="h2-heading download__heading">Get our App</h2>
+  <p class="download__description">
+    You can use our App for better experience on smartphones
+  </p>
+  <div class="download__links-container">
+    <div class="download__link">
+      <div class="download__icon">
+        <img class="icon" src="/appStor.svg" alt="" />
+      </div>
+      <a href="#">App Store</a>
+    </div>
+    <!-- 2 -->
+    <div class="download__link">
+      <div class="download__icon">
+        <img class="icon" src="/playstore.svg" alt="" />
+      </div>
+      <a href="#">Google Play</a>
+    </div>
+  </div>
+</section>
+
+<!-- footer -->
+<footer class="footer">
+  <div class="quick-links__wrapper">
+    <div class="quick-links">
+      <h3 class="quick-links__header">Quick Links</h3>
+      <ul class="quick-link__list">
+        <li class="quick-link__item"><a href="#">About Us</a></li>
+        <li class="quick-link__item"><a href="">Contact Us</a></li>
+        <li class="quick-link__item"><a href="">Privacy Policy</a></li>
+      </ul>
+    </div>
+    <!-- 2 -->
+    <div class="quick-links">
+      <h3 class="quick-links__header">Course</h3>
+      <ul class="quick-link__list">
+        <li class="quick-link__item"><a href="#">Log In</a></li>
+        <li class="quick-link__item"><a href="#">Download</a></li>
+        <li class="quick-link__item"><a href="#">All Courses</a></li>
+      </ul>
+    </div>
+    <!-- 3 -->
+    <div class="quick-links">
+      <h3 class="quick-links__header">Contact Us</h3>
+      <ul class="quick-link__list">
+        <li class="quick-link__item">contact@email.com</li>
+        <li class="quick-link__item quick-link__item--special">
+          <a href="#"><img src="/facebook.svg" alt="" /></a>
+          <a href=""><img src="/insta.svg" alt="" /></a>
+        </li>
+        <li>
+          <div class="subscription-container">
+            <input type="email" placeholder="Email Address" />
+            <button type="submit">Subscribe</button>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <div>&copy; by Ahmed Mohamed Abdalla</div>
+</footer>

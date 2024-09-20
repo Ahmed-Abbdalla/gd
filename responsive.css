@@ -1,0 +1,92 @@
+.testimony {
+  margin-block-start: 100px;
+  background-color: var(--color-white);
+}
+
+.testimony__left {
+  z-index: 1;
+  grid-column: 1 / -1;
+}
+
+.testimony__right {
+  position: relative;
+  order: -1;
+}
+
+.pippe {
+  width: 30px;
+  height: 48%;
+  background-color: #023047;
+  position: absolute;
+  z-index: -1;
+  left: 18%;
+  border-radius: 15px;
+}
+.card {
+  width: 442px;
+  height: 212px;
+  box-shadow: 0px 0px 11px black;
+  margin-inline-start: 40px;
+  border-radius: 10px;
+  background-color: var(--color-white);
+}
+
+.card-1 {
+  margin-block-start: 20px;
+}
+
+.opinion {
+  display: flex;
+  width: 442px;
+  height: 102px;
+  text-align: left;
+  background-color: #6f7dfb;
+  color: var(--color-white);
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.user-info {
+  width: 442px;
+  height: 88px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: var(--color-white);
+}
+
+.card-2 {
+  margin-top: 50px;
+  margin-inline-start: 70px;
+}
+
+.card-2 .opinion {
+  background-color: #da722c;
+}
+
+.testimony__right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.testimony__description {
+  font-size: 1.6rem;
+}
+
+.testimony__right__btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 167px;
+  height: 59px;
+  border-radius: 24px;
+  font-weight: bold;
+  color: var(--color-white);
+  background-color: var(--color-btn-orange);
+}
+
+/* testimony end*/

@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>course site</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- header  -->
+      <header class="section header">
+        <div class="header__logo">GD.</div>
+        <nav class="header__navigation">
+          <ul class="navigation__list">
+            <li class="navigation__item">
+              <a class="navigation__link" href="#">About</a>
+            </li>
+            <li class="navigation__item">
+              <a class="navigation__link" href="#">Services</a>
+            </li>
+            <li class="navigation__item">
+              <a class="navigation__link" href="#">Our Work</a>
+            </li>
+          </ul>
+
+          <a class="navigation__button" href="#">Enrol Now</a>
+        </nav>
+
+        <input
+          class="burger-menu__checkbox"
+          type="checkbox"
+          id="burger-menu__checkbox"
+        />
+        <label class="burger-menu__bread" for="burger-menu__checkbox">
+          <div class="burger-menu-bar"></div>
+          <div class="burger-menu-bar"></div>
+          <div class="burger-menu-bar"></div>
+        </label>
+      </header>
+      <!-- secton introduction -->
+      <section class="section introduction">
+        <div class="introduction__description__left">
+          <h1 class="h1-heading">
+            Learn the art of<br />
+            Game Dev
+          </h1>
+          <p class="introduction__description">
+            This is a comprehensive course on Game Development. You will learn
+            everything from generating an idea to publishing your games to
+            different platforms.
+          </p>
+          <a class="introduction__button" href="#">Enrol Now</a>
+        </div>
+        <!-- 2 -->
+        <div class="introduction__description__right">
+          <div class="introduction__brief">
+            <div class="introduction__stats-box top">
+              <p class="introduction__enrolled">32K</p>
+              <p class="introduction__enrolled-txt">Students Enrolled</p>
+            </div>
+            <div class="introduction__stats-box bottom">
+              <p class="rate">4.7</p>
+              <p class="rate-txt">Overall Rating</p>
+            </div>
+          </div>
+          <!-- image -->
+          <div class="introduction__img-container">
+            <img class="introduction__img" src="/hero-image 1.svg" alt="" />
+          </div>
+        </div>
+      </section>
+
+      <!-- section testimony -->
+      <section class="testimony section">
+        <div class="testimony__left">
+          <div class="pippe"></div>
+          <div class="card card-1">
+            <p class="opinion">
+              This is a great course. It helped me a lot.<br />
+              Thank you :)
+            </p>
+            <div class="user-info">
+              <div class="user-dec">
+                <h3 class="user-name h3-heading">Jane Cooper</h3>
+                <p class="user-work">Developer, Sony</p>
+              </div>
+              <div class="user-img-container">
+                <img class="user-img" src="/girl-user.svg" alt="" />
+              </div>
+            </div>
+          </div>
+          <!-- card 2 -->
+          <div class="card card-2">
+            <p class="opinion">Amazing Work! Well done!</p>
+            <div class="user-info">
+              <div class="user-dec">
+                <h3 class="user-name h3-heading">Jacob Jones</h3>
+                <p class="user-work">Designer, Facebook</p>
+              </div>
+              <div class="user-img-container">
+                <img class="user-img" src="/male.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="testimony__right">
+          <h2 class="testimony__right__heading h2-heading h2-heading--raleway">
+            What our students<br />say
+          </h2>
+          <p class="testimony__right__description">
+            All students get access to all the videos and also the source code
+            of the projects.<br />
+            You will also have access to a private Discord channel where you can
+            discuss your doubts.
+          </p>
+          <a class="testimony__right__btn" href="#">Learn More</a>
+        </div>
+        <a class="testimony__resposive-btn" href="#">Learn More</a>
+      </section>
+
+      <!-- section courses -->
+      <section class="courses">
+        <h2 class="h2-heading section--full courses__heading">Our Courses</h2>
+        <div class="courses-wrapper">
+          <div class="courses__container">
+            <img class="courses__pic" src="/mario.png" alt="" />
+            <div class="courses__content">
+              <h3 class="courses__name h3-heading">
+                <a class="courses__name__link" href="#"
+                  >Game Design Essentials</a
+                >
+              </h3>
+              <div class="courses__time">
+                <img src="/Clock.svg" alt="clock" />
+                <p class="course__hour">8 HRS</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- second course -->
+          <div class="courses__container">
+            <img class="courses__pic" src="/joystick.png" alt="" />
+            <div class="courses__content">
+              <h3 class="courses__name h3-heading">
+                <a class="courses__name__link" href="#"
+                  >Unity Game Engine Fundamentals</a
+                >
+              </h3>
+              <div class="courses__time">
+                <img src="/Clock.svg" alt="clock" />
+                <p class="course__hour">8 HRS</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a class="section--full courses__btn" href="#">All Courses</a>
+      </section>
+
+      <!-- start download -->
+
+      <section class="download">
+        <h2 class="h2-heading download__heading">Get our App</h2>
+        <p class="download__description">
+          You can use our App for better experience on smartphones
+        </p>
+        <div class="download__links-container">
+          <div class="download__link">
+            <div class="download__icon">
+              <img class="icon" src="/appStor.svg" alt="" />
+            </div>
+            <a href="#">App Store</a>
+          </div>
+          <!-- 2 -->
+          <div class="download__link">
+            <div class="download__icon">
+              <img class="icon" src="/playstore.svg" alt="" />
+            </div>
+            <a href="#">Google Play</a>
+          </div>
+        </div>
+      </section>
+
+      <footer class="footer">
+        <div class="quick-links__wrapper">
+          <div class="quick-links">
+            <h3 class="quick-links__header">Quick Links</h3>
+            <ul class="quick-link__list">
+              <li class="quick-link__item"><a href="#">About Us</a></li>
+              <li class="quick-link__item"><a href="">Contact Us</a></li>
+              <li class="quick-link__item"><a href="">Privacy Policy</a></li>
+            </ul>
+          </div>
+          <!-- 2 -->
+          <div class="quick-links">
+            <h3 class="quick-links__header">Course</h3>
+            <ul class="quick-link__list">
+              <li class="quick-link__item"><a href="#">Log In</a></li>
+              <li class="quick-link__item"><a href="#">Download</a></li>
+              <li class="quick-link__item"><a href="#">All Courses</a></li>
+            </ul>
+          </div>
+          <!-- 3 -->
+          <div class="quick-links quick-links-mail">
+            <h3 class="quick-links__header">Contact Us</h3>
+            <ul class="quick-link__list">
+              <li class="quick-link__item">ahmed.abbdalla@gmail.com</li>
+              <li class="quick-link__item quick-link__item--special">
+                <a href="#"><img src="/facebook.svg" alt="" /></a>
+                <a href=""><img src="/insta.svg" alt="" /></a>
+              </li>
+              <li>
+                <div class="subscription-container">
+                  <input type="email" placeholder="Email Address" />
+                  <button type="submit">Subscribe</button>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="copyright">
+          this website is developed by Ahmed Mohamed Abdallah &copy; 2024
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
