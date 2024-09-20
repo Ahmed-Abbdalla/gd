@@ -182,7 +182,7 @@ body {
   left: 30px;
   width: 18px;
   height: 18px;
-  background-image: url(/link-icon.svg);
+  background-image: url(link-icon.svg);
   color: white;
 }
 
@@ -239,7 +239,7 @@ body {
   left: 60px;
   width: 44px;
   height: 44px;
-  background-image: url(/emojione_star.svg);
+  background-image: url(emojione_star.svg);
 }
 
 .introduction__img-container {
