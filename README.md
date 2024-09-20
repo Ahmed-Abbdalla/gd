@@ -1,2 +1,2 @@
-# gd
+# website for game dev 
 courses
